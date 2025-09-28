@@ -29,6 +29,24 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
 
+
+# Authentication & security
+gem "bcrypt", "~> 3.1.18"       # has_secure_password
+gem "jwt", "~> 2.6"            # JSON Web Tokens (auth)
+
+# Authorization
+gem "cancancan", "~> 3.3"
+
+# Serializers (polished JSON output)
+gem "active_model_serializers", "~> 0.10.12"
+
+# Useful for API-only apps connecting to frontends
+gem "rack-cors", "~> 1.1"
+
+# Background jobs / production tool
+gem "sidekiq", "~> 7.0"
+
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
@@ -38,6 +56,10 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem "pry"
+  gem "dotenv-rails"
+  gem "rspec-rails"
 end
 
 
