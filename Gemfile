@@ -32,7 +32,7 @@ gem "bootsnap", require: false
 
 # Authentication & security
 gem "bcrypt", "~> 3.1.18"       # has_secure_password
-gem "jwt", "~> 2.6"            # JSON Web Tokens (auth)
+gem "jwt", "~> 3.1"            # JSON Web Tokens (auth)
 
 # Authorization
 gem "cancancan", "~> 3.3"
