@@ -41,7 +41,7 @@ gem "cancancan", "~> 3.3"
 gem "active_model_serializers", "~> 0.10.12"
 
 # Useful for API-only apps connecting to frontends
-gem "rack-cors", "~> 1.1"
+gem "rack-cors", "~> 3.0"
 
 # Background jobs / production tool
 gem "sidekiq", "~> 7.0"
