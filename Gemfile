@@ -38,7 +38,7 @@ gem "jwt", "~> 2.6"            # JSON Web Tokens (auth)
 gem "cancancan", "~> 3.3"
 
 # Serializers (polished JSON output)
-gem "active_model_serializers", "~> 0.10.12"
+gem "active_model_serializers", "~> 0.10.16"
 
 # Useful for API-only apps connecting to frontends
 gem "rack-cors", "~> 1.1"
