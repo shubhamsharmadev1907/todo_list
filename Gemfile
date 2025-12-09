@@ -44,7 +44,7 @@ gem "active_model_serializers", "~> 0.10.12"
 gem "rack-cors", "~> 1.1"
 
 # Background jobs / production tool
-gem "sidekiq", "~> 7.0"
+gem "sidekiq", "~> 7.3"
 
 
 group :development, :test do
